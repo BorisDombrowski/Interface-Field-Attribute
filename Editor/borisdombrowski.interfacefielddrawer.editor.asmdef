@@ -2,10 +2,8 @@
     "name": "borisdombrowski.interfacefielddrawer.editor",
     "rootNamespace": "",
     "references": [],
-    "includePlatforms": [],
-    "excludePlatforms": [
-        "Editor"
-    ],
+    "includePlatforms": ["Editor"],
+    "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],

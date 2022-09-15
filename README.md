@@ -3,8 +3,8 @@ An attribute to assign interface instances in inspector.
 
 ## How to use
 ```
-[InterfaceField(typeof(IExsampleInterface))]
+[InterfaceField(typeof(IExampleInterface))]
 [SerializeField] private Object _interfaceField;
-public IExsampleInterface InterfaceProperty => _interfaceField as IExsampleInterface;
+public IExampleInterface InterfaceProperty => _interfaceField as IExampleInterface;
 ```
-Now you can assign to **_interfaceField** in inspector only object of **IExsampleInterface** type.
+Now you can assign to **_interfaceField** in inspector only object of **IExampleInterface** type.

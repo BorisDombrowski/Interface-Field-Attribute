@@ -1,0 +1,22 @@
+{
+  "name": "com.borisdombrowski.interfacefieldattribute",
+  "version": "1.0.0",
+  "displayName": "Interface Field Attribute",
+  "description": "An attribute to assign interface instances in inspector",
+  "unity": "2022.1",
+  "unityRelease": "14f1",
+  "documentationUrl": "https://github.com/BorisDombrowski/Interface-Field-Attribute/blob/main/README.md",
+  "changelogUrl": "https://github.com/BorisDombrowski/Interface-Field-Attribute",
+  "licensesUrl": "https://github.com/BorisDombrowski/Interface-Field-Attribute/blob/main/LICENSE",
+  "keywords": [
+    "attribute",
+    "interface",
+    "inspector"
+  ],
+  "author": {
+    "name": "Boris Dombrowski",
+    "email": "the.great.b@frameblade.com",
+    "url": "https://github.com/BorisDombrowski/"
+  },
+  "type": "tool"
+}

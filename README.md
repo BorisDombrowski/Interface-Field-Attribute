@@ -7,6 +7,12 @@ An attribute to assign interface instances in inspector.
 [SerializeField] private Object _interfaceField;
 public IExampleInterface InterfaceProperty => _interfaceField as IExampleInterface;
 ```
+
+```
+[InterfaceField(typeof(IExampleInterface))]
+[SerializeField] private List<Object> _interfaceList;
+```
+
 Now you can assign to **_interfaceField** in inspector only object of **IExampleInterface** type.
 
 ## Special thanks

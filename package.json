@@ -1,6 +1,6 @@
 {
   "name": "com.borisdombrowski.interfacefieldattribute",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Interface Field Attribute",
   "description": "An attribute to assign interface instances in inspector",
   "unity": "2022.1",

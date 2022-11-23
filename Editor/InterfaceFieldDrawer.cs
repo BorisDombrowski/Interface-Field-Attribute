@@ -7,8 +7,6 @@ public class InterfaceFieldDrawer : PropertyDrawer
 {
     public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
     {
-        Debug.Log($"{property.name}  {property.type}");
-
         if (property.propertyType == SerializedPropertyType.ObjectReference)
         {            
             var attribute = this.attribute as InterfaceFieldAttribute;
